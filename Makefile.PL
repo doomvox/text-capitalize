@@ -8,7 +8,6 @@ WriteMakefile
                            'Data::Dumper' => 0,
                            'Env' => '1',
                            'FindBin' => '1.04',
-                           'PerlIO::locale' => 0,
                            'Test::More' => 0,
                            'lib' => 0
                          },

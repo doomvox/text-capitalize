@@ -53,3 +53,7 @@ Revision history for Text-Capitalize
 
 1.4  Changed uc calls to ucfirst (hypothetically better
      for title-casing with unicode strings)
+
+
+1.5  Removed PerlIO::locale dependency from tests, 
+     got rid of the Andy Lester tests of pod and such.
