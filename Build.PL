@@ -7,6 +7,10 @@ my $builder = Module::Build->new(
     license             => 'perl',
     dist_author         => q{Joseph Brenner <doom@kzsu.stanford.edu>},
     dist_version_from   => 'lib/Text/Capitalize.pm',
+    meta_merge => {
+        resources => {
+            repository => 'https://github.com/doomvox/text-capitalize'}
+    },
     build_requires => {
                        'Test::More'     => 0,
                        'FindBin'        => 1.04,
